@@ -42,17 +42,3 @@ int	test_int(int a1, int a2) {
 	return (1);
 }
 
-int	main(void) {
-	test_str("Hola", "Hola");
-	test_str("Hola", "Hol@");
-	test_str("Hola", "Hol");
-	test_str("Hola", "1234");
-	test_str("hola", "Hola");
-	test_int(1, 1);
-	test_int(2, 2);
-	test_int(0, 0);
-	test_int(-1, -1);
-	test_int(-2, -1);
-	return (0);
-}
-
